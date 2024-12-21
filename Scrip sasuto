@@ -1,6 +1,8 @@
 Config = {
-    namescript = "sasuto",--Tên Script
-    logoscript = "117390141608083",--ID Logo Script
-    tacgia = "taimodgame"-- Tên Tác Giả
+    namescript = "sasuto hub",--Tên Script
+    logoscript = "14069216114",--ID Logo Script
+    tacgia = "tài mod game"-- Tên Tác Giả
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tngaming123/vesion/refs/heads/main/scriptbffree.lua"))()
+getgenv().Team = "Marines"
+getgenv().Hide_Menu = false
+loadstring(game:HttpGet("https://apixerohub.x10.mx/main.lua"))()
